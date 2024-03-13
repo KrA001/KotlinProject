@@ -1,13 +1,11 @@
 class Hero {
     var health: Int = 0
-        get() = field
+        private set
 
     var damage: Int = 0
-        get() = field
-
+        private set
     var superpower: String = ""
-        get() = field
-
+        private set
     constructor(health: Int, damage: Int, superpower: String) {
         this.health = health
         this.damage = damage

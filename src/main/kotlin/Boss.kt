@@ -1,8 +1,5 @@
-class Boss {
-    var health: Int = 0
-        get() = field
-    var damage: Int = 0
-        get() = field
-    var protection: String = ""
-        get() =field
-}
+ data class Boss (
+    var health: Int,
+    var damage: Int,
+    var protection: String
+ )
